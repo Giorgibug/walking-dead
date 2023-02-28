@@ -16,25 +16,42 @@ console.log(average);
 
 // second stage
 
-// const people = [
-//    person1 = {
-//         personName : "keto",
-//         age : 29,
-//     }
-//     person2 = {
-//         personName : "gela" ,
-//         age : 32,
-//     };
-//     person3 = {
-//         personName : "rusa", 
-//         age : 30,
-//     };
-//     person4 = {
-//         personName : "kote",
-//         age : 40,
-//     };
-//     person5 = {
-//         personName : "Maka", 
-//         age : 32,
-//     };
-// ]
+const people = [
+     {
+        name : "keto",
+        age : 29,
+    },
+      {
+        name : "gela" ,
+        age : 32,
+    },
+    {
+        name : "rusa", 
+        age : 30,
+    },
+    {
+        name : "kote",
+        age : 40,
+    },
+    {
+        name : "Maka", 
+        age : 32,
+    },
+];
+
+console.log(people);
+
+let product = {
+    productTitle: "XBOX",
+    productDescription: "XBOX One",
+    productPrice: 900,
+    shopAddresses: ["Batumi", "Kutaisi", "Tbilisi"],
+    roductMemoryInGB: 500,
+    productResolution: "1080p",
+};
+
+console.log(product)
+
+console.log(`Product name is ${product.productTitle}, product price is ${product.productPrice}, product resolution is ${product.productResolution} and you can buy it at ${product.shopAddresses[0]}.`);
+
+
